@@ -1,43 +1,51 @@
 /* Applies to everything on all pages */
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
-    background-image: url(stardust.png);
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    background-image: url(white-carbon.png);
     background-repeat: repeat;
     margin-left: 20%;
     margin-right: 20%;
+    padding: 1%;
 }
 
 /* Header */
 header {
     height: 5%;
-    background-color: rgba(255, 255, 255, .25);
-    padding: 1%;
-    z-index: 1;
-    margin: 0 auto;
+    background-color: rgba(145, 145, 145, 0.75);
+    /* z-index: 1;
+    border-bottom-color: black;
+    border-bottom-width: 2px; */
+    padding-right: 1%;
+    padding-left: 1%;
+    padding-top: .5%;
+    padding-bottom: .5%;
+    /* margin-top: 0; */
 }
 
-/* Name within the Header */
+/* Name box within the Header */
 h1 {
     background-color: rgb(0, 0, 0);
     color: white;
-    width: 20px;
+    width: 300px;
     padding: 1%;
-    z-index: 2;
     text-align: center;
-    margin-bottom: 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 36pt;
+    letter-spacing: 6px;
+    /* margin-bottom: 0; */
 }
 
 /* Navigation Bar */
 div.navigation {
-    font-size: 12px;
+    font-size: 16px;
     text-align: right;
-    margin-right: 2%;
-    z-index: 2;
+    margin-right: 4%;
 }
 
 a:link {
     color: white;
+    
 }  
 
 a:vistied {
@@ -46,92 +54,146 @@ a:vistied {
 
 a:hover {
     color: black;
+    font-weight: bold;
 }
   
 a:active {
-    color: blue;
+    color: white;
 }
 /* End Navigation Bar */
 
 /* Applies to all images */
 img {
-    max-width:25%;
-    height:auto;
+    border-style: solid;
+    border-color: rgba(145, 145, 145, 1);
 }
 
-/* Index */
+/* Index About Me */
 div.about-box {
-    text-align: center;
     margin: 2%;
+    padding: 2%;
+    height: 420px;
+    border-style: solid;
+    border-color: rgba(145, 145, 145, 1);
+    padding: 1%;
 }
-/* End Index */
+
+div.about-me {
+    text-align: left;
+    padding-right: 5%;
+}
+
+div.about-image img {
+    max-width:25%;
+    height:auto;
+    border: none; 
+}
+
+div.about-text {
+    text-align: left;
+}
+/* End Index About Me */
 
 /* Contact */
 div.contact-form {
-    text-align: center;
-    height: 50%;
+    text-align: left;
+    text-indent: 25px;
+    height: 420px;
     margin: 2%;
+    padding: 2%;
+    border: solid;
+    border-color: rgba(145, 145, 145, 1);
+    border-width: 1px;
 }
 
 div.input-box{
-    margin-top: 3%;
-    margin-bottom:3%;
-    border-color: white;
-    border-width: 5px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 10%;
 }
 
-div#name {
+div input{
+    margin-bottom: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 25%;
+}
+/*
+div.name input{
     margin: 3%;
+    width: 25%;
 }
 
-div#email {
+div.phone input{
     margin: 3%;
-}
+    width: 25%;
+} */
 
-div#phone {
+div.message input {
     margin: 3%;
+    width: 96%;
+    height: 100px;
 }
 /* End Contact */
 
 /* Portfolio */
 div.portfolio {
-    text-align: center;
-    height: 5%;
+    height: 420px;
+    margin: 2%;
+    padding: 1%;
+    border: solid;
+    border-color: rgba(145, 145, 145, 1);
+    border-width: 1px;
 }
 
-div#hangman {
-    border-style: solid;
-    border-color: black;
+div.icon {
+    float: left;
+    width: 33.3%;
+    height: 33.3%;
 }
 
-div#RPG {
-    border-style: solid;
-    border-color: black;
+div.icon img {
+    background-color:  rgba(145, 145, 145, .5);
+    max-width: 75%;
+    height: auto;
 }
 
-div#trivia {
-    border-style: solid;
-    border-color: black;
+div.hangman {
+    
 }
 
-div#widget {
-    border-style: solid;
-    border-color: black;
+div.RPG {
+
 }
 
-div#scissors {
-    border-style: solid;
-    border-color: black;
+div.trivia {
+
+}
+
+div.widget {
+
+}
+
+div.scissors {
+
+}
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 /* End Portfolio */
 
 /* Footer */
 footer {
+    /* width: 960px; */
+    clear: both;
     height: 5%;
-    background-color: rgba(255, 255, 255, .25);
+    background-color: rgba(145, 145, 145, .75);
     padding: 1%;
-    z-index: 1;
     text-align: center;
-    margin-bottom: 0 auto;
     font-size: 8pt;
 }
+/* End Footer */
