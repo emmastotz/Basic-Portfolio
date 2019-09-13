@@ -11,23 +11,23 @@ body {
 
 /* Header */
 header {
-    height: 5%;
+    height: 200px;
     background-color: rgba(145, 145, 145, 0.75);
-    /* z-index: 1;
-    border-bottom-color: black;
-    border-bottom-width: 2px; */
+    position: relative;
     padding-right: 1%;
     padding-left: 1%;
     padding-top: .5%;
     padding-bottom: .5%;
-    /* margin-top: 0; */
 }
 
 /* Name box within the Header */
 h1 {
     background-color: rgb(0, 0, 0);
+    position: absolute;
+    bottom: 0;
+    left: 20px;
     color: white;
-    width: 300px;
+    width: auto;
     padding: 1%;
     text-align: center;
     font-family: 'Oswald', sans-serif;
@@ -41,6 +41,7 @@ div.navigation {
     font-size: 16px;
     text-align: right;
     margin-right: 4%;
+    margin-top: 20%;
 }
 
 a:link {
@@ -84,6 +85,7 @@ div.about-me {
 }
 
 div.about-image img {
+    float: left;
     max-width:25%;
     height:auto;
     border: none; 
@@ -140,7 +142,7 @@ div.message input {
 div.portfolio {
     height: 420px;
     margin: 2%;
-    padding: 1%;
+    padding: 2%;
     border: solid;
     border-color: rgba(145, 145, 145, 1);
     border-width: 1px;
@@ -148,42 +150,22 @@ div.portfolio {
 
 div.icon {
     float: left;
-    width: 33.3%;
-    height: 33.3%;
+    width: 33%;
+    height: 33%;
 }
 
 div.icon img {
-    background-color:  rgba(145, 145, 145, .5);
+    background-color: rgba(145, 145, 145, .5);
     max-width: 75%;
     height: auto;
 }
-
-div.hangman {
-    
-}
-
-div.RPG {
-
-}
-
-div.trivia {
-
-}
-
-div.widget {
-
-}
-
-div.scissors {
-
-}
-
 
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
 }
+
 /* End Portfolio */
 
 /* Footer */
