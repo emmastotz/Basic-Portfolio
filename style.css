@@ -33,7 +33,6 @@ h1 {
     font-family: 'Oswald', sans-serif;
     font-size: 36pt;
     letter-spacing: 6px;
-    /* margin-bottom: 0; */
 }
 
 /* Navigation Bar */
@@ -69,7 +68,7 @@ img {
     border-color: rgba(145, 145, 145, 1);
 }
 
-/* Index About Me */
+/* About Me */
 div.about-box {
     margin: 2%;
     padding: 2%;
@@ -94,7 +93,7 @@ div.about-image img {
 div.about-text {
     text-align: left;
 }
-/* End Index About Me */
+/* End About Me */
 
 /* Contact */
 div.contact-form {
@@ -120,16 +119,6 @@ div input{
     margin-right: 3%;
     width: 25%;
 }
-/*
-div.name input{
-    margin: 3%;
-    width: 25%;
-}
-
-div.phone input{
-    margin: 3%;
-    width: 25%;
-} */
 
 div.message input {
     margin: 3%;
@@ -165,12 +154,10 @@ div.icon img {
     clear: both;
     display: table;
 }
-
 /* End Portfolio */
 
 /* Footer */
 footer {
-    /* width: 960px; */
     clear: both;
     height: 5%;
     background-color: rgba(145, 145, 145, .75);
