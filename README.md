@@ -10,7 +10,7 @@
 * style.css (main stylesheet)
 
 ##### Instructions to Run the App
-* Deployed at https://emmastotz.github.io/responsive-portfolio/
+* Deployed at https://emmastotz.github.io/basic-portfolio/
 
 ##### Technologies Used
 * CSS3
